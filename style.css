@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0em;
+}
+html,body{
+
+    width: 100%;
+    
+}
+.nav-header{
+    background: url(images/hero-bg.jpg) no-repeat;
+    height: 6em;
+    background-size: cover;
+    position: relative;  
+}
+#header{
+    background: url(images/hero-bg.jpg) no-repeat;
+    height: 60em;
+    background-size: cover;
+    position: relative;
+}
+
+
+#logo {
+    position: absolute;
+    top: 1em;
+    left: 20px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+#logo a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#nav {
+    position:absolute;
+    top: 2em;
+    left: 30%;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#nav il{
+    padding: 30px;
+}
+    
+#nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#nav a:active {
+    color: #ffbe33;
+}
+#nav a:hover {
+    color: #ffbe33;
+}
+#box1{
+    position: absolute;
+    display:inline;
+    top: 50%;
+    left: 3em;
+    color: aliceblue; 
+}
+#box1 h1{
+    font-family:'Dancing Script', cursive ;
+    font-size: 60px;
+    
+}
+#box1 samp{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#box2{
+    position: absolute;
+    display: inline;
+    top: 70%;
+    left: 4em;
+}
+.btm{
+    border-radius: 25px;
+    background-color: #f1bf32ea;
+    color: rgb(255, 255, 255);
+    padding:10px 40px;
+    font-size: 20px;
+
+}
+#icon {
+    display: inline;
+    position: absolute;
+    right: 370px;
+    margin-top: 39px;    
+}
+#box{
+    display: inline;
+    position: absolute;
+    right: 100px;
+    margin-top: 20px;  
+}
+#icon_buy{
+    display: inline;
+    position:absolute;
+    right: 320px;
+    margin-top: 40px;
+}
+#icon_buy span{
+    width: 30px;
+    height: 30px;
+}
+/************************partie off**********************/
+#off{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    color: aliceblue;
+}
+#off1{
+    
+    height: 18em;
+    width: 35%;
+    margin-left: 140px;
+    margin-right: 40px;
+    background: rgb(26, 25, 25);
+    border-radius: 10px;
+}
+#off1 img{
+    border-radius: 110px;
+    border:solid #ffbe33;
+    border-width: 5px;
+    height: 15em;
+    position: relative;
+    left: 10px;
+    margin-top: 30px;
+}
+#off1 h2{
+    position: relative;
+    left: 9em;
+    bottom: 7em;
+    font-family:'Dancing Script', cursive ;
+}
+#off1 h1{
+    position: relative;
+    left: 7em;
+    bottom: 7em;
+    padding: 12px;
+    font-family:'Dancing Script', cursive ; 
+}
+#off1 button{
+    position:relative;
+    left: 15em;
+    bottom: 12em;
+    
+}
+#off2{
+    height: 18em;
+    width: 35%;
+    background: rgb(26, 25, 25);
+    border-radius: 10px;
+    
+}
+#off2 img{
+    border-radius: 110px;
+    border:solid #ffbe33;
+    border-width: 5px;
+    height: 15em;
+    position: relative;
+    left: 10px;
+    margin-top: 30px;
+}
+#off2 h2{
+    position: relative;
+    left: 9em;
+    bottom: 7em;
+    font-family:'Dancing Script', cursive ;
+}
+#off2 h1{
+    position: relative;
+    left: 7em;
+    bottom: 7em;
+    padding: 12px;
+    font-family:'Dancing Script', cursive ; 
+}
+#off2 button{
+    position:relative;
+    left: 15em;
+    bottom: 12em;
+    
+}
+/**************************************our menu************************************/
+.ourmenu{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Dancing Script', cursive  ;
+}
+
+.nav-meun ul{
+    list-style: none;
+}
+.nav-meun li{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+.nav-meun a{
+    letter-spacing: 2px;
+    color: black;
+}
+.nav-meun a:hover{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 100px;
+    background: black;
+    color:aliceblue;
+}
+.nav-meun a:active{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 100px;
+    background: black;
+    color:aliceblue;  
+}
+#bloc{
+    text-align: center;
+    margin-top: 2em;
+    display: inline-block;
+    padding-left: 150px;
+}
+#bloc h2{
+    font-size: 2.2em;
+}
+#bloc span{
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+#blocA,#blocB,#blocC{
+    width: 384px;
+    height: 400px;
+    background: rgb(26, 25, 25);
+    color: aliceblue;
+    padding: 4px;
+    border-radius: 15px;
+}
+#blocA,#blocB{
+    float: left;
+    margin-right: 20px;
+}
+#blocC{
+    float: right;
+}
+#blocA1,#blocB1,#blocC1{
+    width: 390px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border-bottom-left-radius: 80px;
+    margin: -10px;
+}
+#blocA1 img {
+    width: 170px;
+    height: 150px;
+}
+#blocA p{
+    float: left;
+    
+    padding:30px ;
+    font-size: large;
+}
+#blocA a{
+    float: right;
+    padding:30px ;
+    border-radius: 20px;    
+}
+#blocB a{
+    float: right;
+    padding:30px ;
+    border-radius: 20px;    
+}
+#blocB1 img {
+    width: 170px;
+    height: 150px;
+}
+#blocB p{
+    float: left;
+    
+    padding:30px ;
+    font-size: large;
+}
+#blocB a{
+    float: right;
+    padding:30px ;
+    border-radius: 20px;    
+}
+#blocC1 img {
+    width: 170px;
+    height: 150px;
+}
+#blocC p{
+    float: left;
+    
+    padding:30px ;
+    font-size: large;
+}
+#blocC a{
+    float: right;
+    padding:30px ;
+    border-radius: 20px;    
+}
+#menu-btm{
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+#about{
+    height: 600px;
+    width: 100%;
+    background: rgb(26, 25, 25);
+    text-align: center;
+}
+#img-about img{
+    float: left;
+    margin-left: 400px;
+    margin-top: 20px;
+    height: 530px; 
+    right: 300px;
+}
+#text-about{
+    font-family:'Dancing Script', cursive  ;
+    float: right;
+    margin-right: 300px;    
+    color: aliceblue;
+    padding: 200px 0  ;  
+}
+#text-about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+/*********************************************************Footer********************************************/
+#footer{
+    height: 380px;
+    width: 100%;
+    background: rgb(26, 25, 25);
+    text-align: center;
+    padding: 50px ;
+    margin-top:30px ;
+}
+#footer1,#footer2,#footer3{
+    color: aliceblue;
+    display: inline-block;
+    padding: 0px 40px;
+}
+#footer1 h1{
+    font-family: 'Dancing Script', cursive;
+}
+#footer3 h1{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+}
+#footer1 a:hover{
+    color: #ffbe33;
+    text-decoration: none;   
+}
+#footer1 a{
+    color: aliceblue;
+}
+#footer2 h1{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+}
+#footer2 ul{
+    list-style: none;
+}
+#footer2 li{
+    display: inline-block;
+    margin: 10px 15px;
+    background: aliceblue;
+    height: 27px;
+    width: 27px;
+    border-radius: 30px;
+}
+#footer2 a{
+    color: black;
+}
+#footer2 a:hover{
+    color:#ffbe33;
+}
+#Distributed{
+    color: aliceblue;
+    padding-top: 70px;
+}
+/*****************************book ****************/
+#book{
+    margin: 100px 150px;    
+}
+#book form{
+    display: inline-block;
+}
+#book h1{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 100px;
+    font-size: 60px;
+}
+#book ul{
+    list-style: none;
+    width: 600px;   
+}
+#book li{
+    margin: 40px;
+    border:solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+}
+#book input{
+    border: none;
+    width: 460px;
+    height: 30px;
+}
+#book iframe{
+    float: right;
+    border-radius: 20px;
+}
+#btm-book input{
+    position: absolute;
+    border-radius: 25px;
+    background-color: #f1bf32ea;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    margin-left: 70px;
+    
+}
+/******************************************form************************/
+#book img{
+    float: right;
+    border-radius: 20px;
+    height: 800px;
+    width: 500px;
+}
+#b-login{
+    background: url(images/hero-bg.jpg) no-repeat;
+}
+/******************partie login********************************/
+#tab-login{
+    color: oldlace;
+    height: 27em;
+    width: 29em;
+    margin:150px 500px; 
+    background: rgb(37, 35, 35);
+    border-radius: 50px;
+}
+#tab-login h1{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 30px;
+    margin-left:130px ;
+    padding-bottom: 20px;
+}
+
+#tab-login ul{
+    list-style: none;
+    width: 50em;
+    display: inline-block;
+}
+#tab-login li{
+    width: 285px;
+    height: 4em;
+    border: solid oldlace;
+}
+#tab-login input{
+    width: 280px;
+    height: 51px;
+    background:rgb(14, 14, 14); 
+}
+#btm-login input{
+    background: #ffbe33;
+    border-radius: 50px;
+    font-size: x-large;
+    margin-top: 20px;
+}

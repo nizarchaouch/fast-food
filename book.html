@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>Fast Foo Restaurant</title>
+    </head>
+<body>
+    <!-----------------partie hedear------------------->
+    <div class="nav-header">
+        <div id="banner">
+        <div id="logo"><a href="index.html"><p>Chef Online</p></a></div>
+        <div id="nav">
+            <ul>
+                <il><a href="index.html">HOME</a></il>
+                <il><a href="menu.html">MENU</a></il>
+                <il><a href="#">ABOUT</a></il>
+                <il><a href="book.html">BOOK TABLE</a></il>
+            </ul>
+        </div>
+        <div id="icon">
+            <a href="sign.html" title="SIGN "><i class="material-icons" style="color: aliceblue; ">&#xe853;</i></a>
+        </div>
+        <div id="icon_buy">
+            <a href="login.html" title="SETTING Person"><i style="font-size:24px; color: aliceblue;" class="fa" >&#xf013;</i></a>
+        </div>
+        <div id="box">
+            <button class="btm">Order Online</button>
+        </div>
+        </div>
+    </div>
+    <!--------------------------BOOK A TABLE----------------------->
+    <div id="book">
+        <h1>Book A Table</h1>
+        <form method="post" action="book.php">
+           <ul>
+                <li><input type="text" name="name" id="name" placeholder="Your Name" maxlength="10" required></li>
+                <li><input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                <li><input type="number" name="tel" id="tel" placeholder="Phone Number" maxlength="8" required></li><!---envoyer un msg de confirmation-->
+                <li><input type="number" name="person" id="person" placeholder="How many persons?" required ></li>        
+                <li><input type="date" name="date" id="date" required></li>        
+           </ul>
+           <div id="btm-book"><input type="submit" name="valider" value="BOOK NOW"></div>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51757.48674316155!2d10.583034909856913!3d35.828329470872085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130275759ac9d10d%3A0x698e3915682cef7d!2sSousse!5e0!3m2!1sfr!2stn!4v1640842091574!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    
+    <!--------------------------------------footer------------------------------------>
+    <footer>
+        <div id="footer">
+          <div id="footer1">
+              <h1>Contact Us</h1>
+              <a href=""><p><i style="font-size:24px" class="fa">&#xf041;</i>&nbsp; Location</p></a>
+              <a href=""><p><i style="font-size:24px" class="fa">&#xf095;</i>&nbsp; Call +216 52 641 659</p></a>
+              <a href=""><p><i style="font-size:24px" class="fa">&#xf0e0;</i>&nbsp; chefonline@gmail.com</p></a>
+          </div>
+          <div id="footer2">
+              <h1>Chef Online</h1>
+              <p>Don't Miss Out! Join Our Newsletter For Exclusive Updates </p>
+              <ul>
+                  <li>
+                     <a href="https://www.facebook.com/"> <i style="font-size:23px" class="fa">&#xf09a;</i></a>
+                  </li>
+                  <li>
+                      <a href="https://www.instagram.com/"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+                  </li>
+                  <li>
+                      <a href="https://mobile.twitter.com/i/flow/login"><i style="font-size:24px" class="fa">&#xf099;</i></a>
+                  </li>
+                  
+              </ul>
+          </div>
+          <div id="footer3">
+              <h1>Opening Hours</h1>
+              <p>Everyday</p>
+              <samp>10.00AM-12.00AM</samp>
+          </div>
+          <div id="Distributed">
+              <p>© 2021 All Rights Reserved | Distributed By CHAOUCH NIZAR</p><br>
+          </div>
+        </div>  
+      </footer>
+</body>
+</html>
